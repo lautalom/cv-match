@@ -1,0 +1,7 @@
+# PDFs and exported documents are local build artifacts.
+# Commit your sources (any format); never the exports you send to employers.
+*.pdf
+
+# Local-only agent skill links (e.g. the optional Claude Code fallback).
+# The canonical, tracked skills live in .agents/skills/.
+.claude/skills/
